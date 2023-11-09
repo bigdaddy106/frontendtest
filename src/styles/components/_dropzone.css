@@ -1,0 +1,25 @@
+.dropzone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 100%;
+  min-height: 102px;
+}
+
+@media (max-width: 1024px) {
+  .dropzone {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .dropzone {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 532px) {
+  .dropzone {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

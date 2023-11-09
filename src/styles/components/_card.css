@@ -1,0 +1,31 @@
+.card {
+  position: relative;
+  width: 92px;
+  height: 92px;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.card-layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.card-ui-layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-ui-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

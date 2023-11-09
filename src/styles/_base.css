@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  gap: 24px
+}
+h2 {
+  margin: 12px 0;
+}
+ol {
+  margin: 0;
+  padding: 0 20px;
+}
+img {
+  aspect-ratio: 1/1;
+}
+.rounded {
+  border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+}
